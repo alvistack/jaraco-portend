@@ -1,0 +1,27 @@
+Source: python-portend
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+Homepage: https://github.com/jaraco/portend/tags
+Vcs-Browser: https://github.com/alvistack/jaraco-portend
+Vcs-Git: https://github.com/alvistack/jaraco-portend.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ python3-dev,
+ python3-setuptools,
+
+Package: python3-portend
+Architecture: all
+Description: TCP port monitoring and discovery
+ por·tend pôrˈtend/ be a sign or warning that (something, especially
+ something momentous or calamitous) is likely to happen.
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${python3:Depends},
+ python3,
+ python3-tempora (>= 1.8),

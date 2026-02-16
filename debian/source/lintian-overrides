@@ -1,0 +1,5 @@
+python-portend source: file-without-copyright-information
+python-portend source: no-debian-changes
+python-portend source: source-contains-prebuilt-windows-binary
+python-portend source: source-is-missing
+python-portend source: source-package-encodes-python-version
